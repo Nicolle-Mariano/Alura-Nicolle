@@ -1,0 +1,81 @@
+/* Corpo da página */
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Alterado para Poppins */
+    margin-bottom: 100px;
+    line-height: 1.6; /* Adicionando espaçamento entre as linhas para melhorar a legibilidade */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 2rem; /* Usando rem para melhorar a responsividade */
+    color: rgb(42, 122, 228);
+}
+
+/* Chamada principal com fundo e alinhamento */
+.chamada {
+    background: rgb(184, 156, 213);
+    padding: 5rem 2rem; /* Usando unidades rem para maior flexibilidade */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Garantir que o conteúdo fique centralizado verticalmente */
+    text-align: center; /* Centralizar texto na chamada */
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+/* Título principal */
+h1 {
+    font-size: 2.5rem; /* Ajustando o tamanho da fonte para responsividade */
+    margin-bottom: 0.5rem; /* Pequeno espaçamento inferior */
+}
+
+/* Parágrafos com ajustes no tamanho da fonte */
+p {
+    font-size: 1.25rem; /* Melhorando o tamanho da fonte para maior legibilidade */
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.8); /* Cor de texto um pouco mais suave */
+}
+
+/* Estilo para a categoria de vídeos */
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 1rem 0; /* Padding superior e inferior para espaçamento */
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    min-width: 220px; /* Garantir que a categoria tenha uma largura mínima */
+    text-align: center; /* Centralizar o conteúdo dentro da categoria */
+}
+
+/* Imagens dentro da categoria de vídeos */
+.categoria-videos img {
+    opacity: 0.6;
+    height: 250px; /* Ajustando o tamanho da imagem */
+    width: auto; /* Ajustar a largura automaticamente para manter a proporção */
+    transition: all 0.3s ease; /* Adicionando transição suave */
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border: 3px solid rgb(42, 122, 228); /* Alterando a cor da borda para combinar com o tema */
+    transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+/* Título das categorias */
+.categoria h2 {
+    color: rgb(42, 122, 228);
+    font-size: 1.75rem; /* Ajuste do tamanho da fonte */
+    margin-bottom: 1rem; /* Adicionando espaçamento inferior */
+}
